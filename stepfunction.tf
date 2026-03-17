@@ -1,5 +1,5 @@
 resource "aws_sfn_state_machine" "workflow" {
-  name     = "abc-workflow-v4"
+  name     = "abc-workflow-v5"
   role_arn = aws_iam_role.step_role.arn
  
   definition = jsonencode({
